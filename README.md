@@ -30,7 +30,7 @@
   }
   @media screen and (max-width: 768px) {
     @for $i from 1 through $pieces {
-      .col-md-#{$i} {
+      .col-xs-#{$i} {
         width: 1/$pieces*100%*$i;
       }
     }
@@ -40,7 +40,7 @@
       width: 750px;
     }
     @for $i from 1 through $pieces {
-      .col-md-#{$i} {
+      .col-sm-#{$i} {
         width: 1/$pieces*100%*$i;
       }
     }
@@ -60,7 +60,7 @@
       width: 1170px;
     }
     @for $i from 1 through $pieces {
-      .col-md-#{$i} {
+      .col-lg-#{$i} {
         width: 1/$pieces*100%*$i;
       }
     }
