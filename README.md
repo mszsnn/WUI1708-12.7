@@ -44,7 +44,7 @@ $num:12;
 
 @mixin xun($type){
   @for $i from 1 through 12{
-    col-#{$type}-#{$i}{
+    .col-#{$type}-#{$i}{
       width:1/$num*100%*$i;
     }
   }
