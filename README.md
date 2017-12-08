@@ -51,9 +51,7 @@ $num:12;
 }
 
 @media screen and (max-width: 768px){
-  .container{
 
-  }
   @include xun(sm)
 }
 @media screen and (max-width: 992px) and (min-width: 768px){
