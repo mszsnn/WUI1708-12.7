@@ -44,7 +44,7 @@ $num:12;
 
 @mixin xun($type){
   @for $i from 1 through 12{
-    .col-#{$type}-#{$i}{
+    .col-#{$type}-#{$i}{
       width:1/$num*100%*$i;
     }
   }
@@ -55,12 +55,21 @@ $num:12;
   @include xun(sm)
 }
 @media screen and (max-width: 992px) and (min-width: 768px){
+  .container{
+    width: 750px;
+  }
   @include xun(md)
 }
 @media screen and (max-width: 1200px) and (min-width: 992px){
+  .container{
+    width: 970px;
+  }
   @include xun(lg)
 }
 @media screen and (min-width: 1200px){
+  .container{
+    width: 1170px;
+  }
   @include xun(xs)
 }
 
